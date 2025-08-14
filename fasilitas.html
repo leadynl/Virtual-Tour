@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Info Fasilitas Kampus</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #ffffff;
+      color: blue;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+      align-items: center;
+    }
+
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: blue;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px 40px;
+    }
+
+    .facility {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .facility img {
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .facility-content {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .facility-content h3 {
+      margin-top: 0;
+      color: #004080;
+    }
+
+    .facility-content p {
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .facility {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .facility img {
+        width: 100%;
+        max-height: 200px;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="logo">Universitas Atma Jaya Makassar</div>
+  <ul>
+    <li><a href="halaman utama.html">Beranda</a></li>
+  </ul>
+</nav>
+
+<!-- Header -->
+<header>
+  <h1>Fasilitas Kampus</h1>
+  <p>Temukan berbagai fasilitas penunjang kegiatan belajar dan kehidupan kampus</p>
+</header>
+
+<!-- Content -->
+<div class="container">
+  <div class="facility">
+    <img src="Gambar/perpustakaan.png" alt="Perpustakaan" />
+    <div class="facility-content">
+      <h3><i class="fas fa-book"></i> Perpustakaan</h3>
+      <p>Ruangan perpustakaan dengan koleksi buku, jurnal ilmiah, dan ruang baca nyaman.</p>
+      <a href="perpustakaan.html" class="tour-button">Tour Fasilitas</a>
+    </div>
+  </div>
+
+  <div class="facility">
+    <img src="Gambar/aula.png" alt="Ruang Serbaguna" />
+    <div class="facility-content">
+      <h3><i class="fas fa-building"></i> Ruang Serbaguna</h3>
+      <p>Fasilitas Ruang Serbaguna dapat digunakan untuk mengikuti seminar, perayaan kampus, kegiatan mahasiswa, dan lainnya.</p>
+      <a href="aula.html" class="tour-button">Tour Fasilitas</a>
+    </div>
+  </div>
+
+
+  <div class="facility">
+    <img src="Gambar/laboratorium.png" alt="Laboratorium" />
+    <div class="facility-content">
+      <h3><i class="fas fa-flask"></i> Laboratorium</h3>
+      <p>Fasilitas laboratorium lengkap untuk menunjang praktik mahasiswa di semua jurusan.</p>
+      <a href="index.html" class="tour-button">Tour Fasilitas</a>
+    </div>
+  </div>
+
+  <div class="facility">
+    <img src="Gambar/lapangan.png" alt="Gym Kampus" />
+    <div class="facility-content">
+      <h3><i class="fas fa-dumbbell"></i> Lapangan Olahraga</h3>
+      <p>Fasilitas olahraga seperti lapangan bulutangkis, lapangan futsal, dan lapangan basket.</p>
+      <a href="index.html" class="tour-button">Tour Fasilitas</a>
+    </div>
+  </div>
+
+  <div class="facility">
+    <img src="Gambar/kantin.png" alt="Kantin" />
+    <div class="facility-content">
+      <h3><i class="fas fa-utensils"></i> Kantin</h3>
+      <p>Kantin kampus menyediakan berbagai jenis makanan dengan harga terjangkau bagi mahasiswa dan dosen.</p>
+      <a href="index.html" class="tour-button">Tour Fasilitas</a>
+    </div>
+  </div>
+
+  <div class="facility">
+    <img src="Gambar/parkiran.png" alt="Parkiran" />
+    <div class="facility-content">
+      <h3><i class="fas fa-car"></i> Parkiran</h3>
+      <p>Parkiran terdapat disepanjang area kampus, khusus mahasiswa dan dosen.</p>
+      <a href="index.html" class="tour-button">Tour Fasilitas</a>
+    </div>
+  </div>
+  
+  
+
+</div>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Universitas Atma Jaya Makassar.
+</footer>
+
+</body>
+</html>
